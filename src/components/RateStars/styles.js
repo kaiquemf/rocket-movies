@@ -21,26 +21,26 @@ body {
 #like:not(:checked) > label {
   cursor:pointer;
   float: right;
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 1.4rem;
+  height: 1.4rem;
   display: block;
   
-  color: rgba(4,95, 224, .4);
+  color: ${({ theme }) => theme.COLORS.HEARTS_COLOR_600};
   line-height: 1.2rem;
   text-align: center;
 }
 #like:not(:checked) > label:hover,
 #like:not(:checked) > label:hover ~ label {
-  color: rgba(4,95, 224, .6);
+  color: ${({ theme }) => theme.COLORS.HEARTS_COLOR_700};
 }
 #like > input:checked + label:hover,
 #like > input:checked + label:hover ~ label,
 #like > input:checked ~ label:hover,
 #like > input:checked ~ label:hover ~ label,
 #like > label:hover ~ input:checked ~ label {
-  color: rgba(4,95, 224, .8);
+  color: ${({ theme }) => theme.COLORS.HEARTS_COLOR_800};
 }
 #like > input:checked ~ label {
-  color: rgba(4, 95, 224, 1);
+  color: ${({ theme }) => theme.COLORS.HEARTS_COLOR_900};
 }
 `
