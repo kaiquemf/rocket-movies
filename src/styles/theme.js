@@ -10,7 +10,7 @@ export default {
     HARD_BLUE:'hsla(225, 100%, 76%, 1)',
     SOFT_BLUE:'hsla(225, 100%, 76%, .5)',
 
-    WHITE_900:'hsla(255, 100%, 100%, 1)',
+    WHITE_900:'hsla(0, 0%, 100%, 1)',
     WHITE_800:'hsla(25, 35%, 93%, 1)',
 
     GRAY_900:'hsla(0, 0%, 90%, 1)',
