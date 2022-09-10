@@ -1,7 +1,7 @@
 import { Container, Content, Section } from "./styles";
+import { Button } from "../../components/Button";
 import { Header } from "../../components/Header";
 import { Note } from "../../components/Note";
-import { Button } from "../../components/Button";
 import { FiPlus } from "react-icons/fi";
 
 export function Home(){
@@ -13,7 +13,12 @@ export function Home(){
      <Button icon={FiPlus} title="Add new movie"/>
     </Content>
     <Section>
-     <Note title="Interestellar"/>
+    <Note data={{title:"Interestellar",
+       tags:[
+       {id: "1", name:"Science Fiction"},
+       {id: "2", name:"Drama"},
+       {id: "3", name:"Family"}]}}>              
+     </Note>
     </Section>
    </Container>
   )
