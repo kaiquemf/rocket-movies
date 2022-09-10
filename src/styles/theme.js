@@ -16,5 +16,10 @@ export default {
     GRAY_900:'hsla(0, 0%, 90%, 1)',
     GRAY_800:'hsla(270, 5%, 58%, 1)',
     GRAY_700:'hsla(30, 4%, 58%, 1)',
+
+    HEARTS_COLOR_900:'hsla(225, 100%, 76%, 1)',
+    HEARTS_COLOR_800:'hsla(225, 100%, 76%, .8)',
+    HEARTS_COLOR_700:'hsla(225, 100%, 76%, .6)',
+    HEARTS_COLOR_600:'hsla(225, 100%, 76%, .4)',
   }
 }
