@@ -15,4 +15,22 @@ export const Container = styled.div`
 
     color: ${({ theme}) => theme.COLORS.WHITE_800};
   }
+  > p{
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    font-family: 'Roboto', sans-serif;
+    color: ${({ theme }) => theme.COLORS.GRAY_700};
+    margin-top: 3.5rem;
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  > footer{
+    width: 100%;
+    display: flex;
+    margin-top: 2.4rem;
+  }
 `
