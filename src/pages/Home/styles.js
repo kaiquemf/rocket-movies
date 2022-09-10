@@ -25,3 +25,7 @@ export const Content = styled.div`
     filter: opacity(0.8);
   }
 `
+export const Section = styled.div`
+  margin-top: 3.74rem;
+  padding: 0 12.3rem;
+`
