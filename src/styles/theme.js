@@ -8,7 +8,7 @@ export default {
     INPUT_BG:'hsla(255, 5%, 15%, 1)',
 
     HARD_BLUE:'hsla(225, 100%, 76%, 1)',
-    SOFT_BLUE:'hsla(225, 100%, 76%, .5)',
+    SOFT_BLUE:'hsla(225, 100%, 76%, .05)',
 
     WHITE_900:'hsla(0, 0%, 100%, 1)',
     WHITE_800:'hsla(25, 35%, 93%, 1)',
