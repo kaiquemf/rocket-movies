@@ -6,6 +6,9 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+  *:focus{
+    outline: none;
+  }
   :root{
     font-size: 62.5%;
     font-family: 'Roboto Slab', serif;
