@@ -13,7 +13,7 @@ export function Home(){
      <Button icon={FiPlus} title="Add new movie"/>
     </Content>
     <Section>
-    <Note data={{title:"Interestellar",
+     <Note data={{title:"Interestellar",
        tags:[
        {id: "1", name:"Science Fiction"},
        {id: "2", name:"Drama"},

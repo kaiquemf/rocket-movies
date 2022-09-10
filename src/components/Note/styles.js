@@ -20,8 +20,6 @@ export const Container = styled.div`
     line-height: 1.9rem;
     font-family: 'Roboto', sans-serif;
     color: ${({ theme }) => theme.COLORS.GRAY_700};
-    margin-top: 3.5rem;
-    
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;

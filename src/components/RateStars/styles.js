@@ -6,9 +6,9 @@ body {
 }
 
 .rating {
-  position: absolute;
   height: 30px;
   margin: auto;
+  margin-right: 154rem;
   display: block;
   overflow: hidden;
   direction: ltr;
