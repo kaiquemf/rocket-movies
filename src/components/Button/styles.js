@@ -10,6 +10,7 @@ export const Container = styled.button`
   align-items: center;
   justify-content: center;
   gap: .8rem;
+  cursor: pointer;
 
   font-size: 1.6rem;
   font-family: 'Roboto Slab', serif;
