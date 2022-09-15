@@ -12,6 +12,7 @@ export default {
 
     WHITE_900:'hsla(0, 0%, 100%, 1)',
     WHITE_800:'hsla(25, 35%, 93%, 1)',
+    WHITE_700:'hsla(273, 10%, 79%, 1)',
 
     GRAY_900:'hsla(0, 0%, 90%, 1)',
     GRAY_800:'hsla(270, 5%, 58%, 1)',
