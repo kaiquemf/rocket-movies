@@ -12,8 +12,9 @@ export const Container = styled.button`
   gap: .8rem;
 
   font-size: 1.6rem;
-  line-height: 2.1rem;
   font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  line-height: 2.1rem;
   color: ${({ theme }) => theme.COLORS.BACKGROUND_DARK};
 
   background: ${({ theme }) => theme.COLORS.HARD_BLUE};
