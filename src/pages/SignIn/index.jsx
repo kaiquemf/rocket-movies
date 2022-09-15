@@ -14,8 +14,9 @@ export function SignIn(){
 
         <Input icon={FiMail} placeholder="E-mail"/>
         <Input icon={FiLock} placeholder="Password"/>
+        
         <Button title="LogIn"/>
-      <ButtonText title="create account"/>
+        <ButtonText title="create account"/>
       </Form>
       <Background/>
     </Container>

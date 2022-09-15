@@ -9,7 +9,7 @@ export const Container = styled.div`
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
-  padding: 23.5rem 15.9rem 31.7rem 13.4rem;
+  padding: 23.5rem 15.9rem 0 13.4rem;
 
   > h1{
     font-size: 4.8rem;
