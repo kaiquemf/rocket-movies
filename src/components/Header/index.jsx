@@ -7,7 +7,7 @@ export function Header(){
   return(
     <Container>
       <h1>RocketMovies</h1>
-      <Input placeholder="Search Title" icon={FiSearch}/>
+      <Input placeholder="Search by title" icon={FiSearch}/>
       <Profile>
         <div className="text-content">
         <strong>Kaique Martins</strong>
