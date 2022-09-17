@@ -1,0 +1,38 @@
+import { ButtonText } from '../../components/ButtonText';
+import { Button } from '../../components/Button';
+import { TextArea } from '../../components/TextArea';
+import { NoteItem } from '../../components/NoteItem';
+import { Section } from '../../components/Section';
+import { Header } from '../../components/Header';
+import { Input } from '../../components/Input';
+import { Container, Content } from './styles';
+import { FiArrowLeft } from 'react-icons/fi';
+
+export function CreateNote(){
+  return(
+    <Container>
+      <Header />
+      <Content>
+      <ButtonText icon={FiArrowLeft} title="Return"/>
+      <h1>New movie</h1>
+      <div className="divide-inputs">
+        <Input placeholder="Title"/>
+        <Input placeholder="Your note (from 0 to 5)"/>
+      </div>
+      <TextArea placeholder="Make your note...">
+
+      </TextArea>
+      <Section title="Markers">
+        <div className="tags">
+        <NoteItem value="React"/>
+        <NoteItem isNew value="New marker"/>
+        </div>
+      </Section>
+      <div className="buttons">
+      <Button className="remove-movie-button" title="Remove movie"/>
+      <Button className="save-movie-button" title="Save movie"/>
+      </div>
+      </Content>
+    </Container>
+  )
+}
