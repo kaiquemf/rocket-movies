@@ -2,6 +2,7 @@ export default {
   COLORS:{
 
     BACKGROUND_DARK:'	hsla(260, 5%, 11%, 1)',
+    INPUT_BACKGROUND_DARK:'hsla(255, 11%, 5%, 1)',
     BACKGROUND_LIGHT:'hsla(260, 0%, 98%, 1)',
 
     HEADER_BORDER:'hsla(255, 9%, 25%, 1)',
@@ -9,6 +10,8 @@ export default {
 
     HARD_BLUE:'hsla(225, 100%, 76%, 1)',
     SOFT_BLUE:'hsla(225, 100%, 76%, .05)',
+
+    RED:'hsla(0,100%,50%, 1)',
 
     WHITE_900:'hsla(0, 0%, 100%, 1)',
     WHITE_800:'hsla(25, 35%, 93%, 1)',
