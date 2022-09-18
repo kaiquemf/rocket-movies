@@ -19,13 +19,13 @@ grid-area: "header";
     color: ${({ theme }) => theme.COLORS.WHITE_900};
     white-space: nowrap;
   }
-  > button{
+   > a{
     cursor: pointer;
     width: 20rem;
 
     transition: all 200ms ease-in-out;
   }
-  button:hover{
+   > a:hover{
     filter: opacity(0.8);
   }
 `

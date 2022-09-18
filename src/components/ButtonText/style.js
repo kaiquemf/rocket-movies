@@ -6,8 +6,6 @@ export const Container = styled.button`
   color: ${({ theme, isActive }) => isActive ? theme.COLORS.HARD_BLUE : theme.COLORS.GRAY_800};
 
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: .8rem;
 
   cursor: pointer;

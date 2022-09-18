@@ -10,7 +10,7 @@ export function Header(){
       <Input placeholder="Search by title" icon={FiSearch}/>
       <Profile>
         <div className="text-content">
-        <strong>Kaique Martins</strong>
+        <Link to="/profile"><strong>Kaique Martins</strong></Link>
         <button>logout</button>
         </div>
         <img src="https://github.com/kaiquemf.png" alt="Profile Image" />

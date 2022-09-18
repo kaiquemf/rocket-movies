@@ -6,12 +6,11 @@ body {
 }
 
 .rating {
+  width: fit-content;
   height: 30px;
-  margin: auto;
-  margin-right: 154rem;
   display: block;
-  overflow: hidden;
   direction: ltr;
+  transform: rotateY(180deg);
 }
 .rating:not(:checked) > input {
   display: none;
@@ -20,11 +19,9 @@ body {
 
 #like:not(:checked) > label {
   cursor:pointer;
-  float: right;
+  float: left;
   width: 1.4rem;
   height: 1.4rem;
-  display: block;
-  
   color: ${({ theme }) => theme.COLORS.HEARTS_COLOR_600};
   line-height: 1.2rem;
   text-align: center;

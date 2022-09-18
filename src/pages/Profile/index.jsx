@@ -1,16 +1,19 @@
-import { Container,Header, Content, Avatar } from "./styles";
 import { FiArrowLeft, FiCamera, FiUser, FiMail, FiLock } from 'react-icons/fi';
-import { Input } from '../../components/Input';
+import { Container,Header, Content, Avatar } from "./styles";
 import { Button } from '../../components/Button';
+import { Input } from '../../components/Input';
+import { Link } from "react-router-dom";
 
 export function Profile(){
   return(
     <Container>
       <Header>
+        <Link to="/">
         <div className="content">
         <FiArrowLeft />
         <button><span>Return</span></button>
         </div>
+        </Link>
       </Header>
 
       <Content>
@@ -21,12 +24,17 @@ export function Profile(){
           <input  id="avatar" type="file"/>
         </label>
       </Avatar>
-      <Input className="input-container" icon={FiUser} placeholder="Name"/>
-      <Input className="input-container" icon={FiMail} placeholder="E-mail"/>
-      <Input className="input-container" icon={FiLock} placeholder="Current password"/>
-      <Input className="input-container" icon={FiLock} placeholder="New Password"/>
-
+      <section className="info-inputs">
+      <Input icon={FiUser} placeholder="Name"/>
+      <Input icon={FiMail} placeholder="E-mail"/>
+      <div className="current-password-input">
+      <Input icon={FiLock} placeholder="Current password"/>
+      </div>
+      <div className="new-password-input">
+      <Input icon={FiLock} placeholder="New Password"/>
+      </div>
       <Button title="Save"/>
+      </section>
       </Content>
     </Container>
   )

@@ -52,13 +52,15 @@ export const Content = styled.form`
   flex-direction: column;
   align-items: center;
 
-  .iNqtCH, .cbdOZb{
+  .info-inputs{
+    display: flex;
+    flex-direction: column;
     width: 34rem;
   }
-  .iNqtCH:nth-child(4){
+  .current-password-input{
     margin-top: 2.4rem;
   }
-  .iNqtCH:nth-child(5){
+  .new-password-input{
     margin-bottom: 2.4rem;
   }
 `;
