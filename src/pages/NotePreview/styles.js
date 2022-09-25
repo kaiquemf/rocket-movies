@@ -36,6 +36,9 @@ export const Content = styled.div`
       height: 1.2rem;
     }
   }
+  .text-btn{
+    padding: 4rem 0 2.4rem 0;
+  }
 
   .more-info-section{
     display: flex;
@@ -90,8 +93,8 @@ export const TextArea = styled.div`
   color: ${({ theme }) => theme.COLORS.WHITE_900};
 
   display: -webkit-box;
-   -webkit-line-clamp: 23;
-           line-clamp: 23; 
+   -webkit-line-clamp: 20;
+           line-clamp: 20; 
    -webkit-box-orient: vertical;
   }
 

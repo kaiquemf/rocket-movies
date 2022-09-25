@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.button`
+export const Container = styled.div`
   font-family: 'Roboto Slab', serif;
   font-size: 1.6rem;
   color: ${({ theme, isActive }) => isActive ? theme.COLORS.HARD_BLUE : theme.COLORS.GRAY_800};

@@ -1,6 +1,8 @@
 import { Container, Profile } from "./styles";
 import { FiSearch } from "react-icons/fi";
+import { Link } from "react-router-dom";
 import { Input } from "../Input";
+
 
 export function Header(){
   return(
@@ -12,7 +14,7 @@ export function Header(){
         <strong>Kaique Martins</strong>
         <button>logout</button>
         </div>
-        <img src="https://github.com/kaiquemf.png" alt="Profile Image" />
+        <Link to="/profile"><img src="https://github.com/kaiquemf.png" alt="Profile Image" /></Link>
       </Profile>
     </Container>
   )

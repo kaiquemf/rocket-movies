@@ -1,16 +1,17 @@
 import { ButtonText } from "../../components/ButtonText";
-import { RateStars } from "../../components/RateStars";
-import { Tag } from "../../components/Tags";
-import { Header } from "../../components/Header";
-import { FiArrowLeft, FiClock } from "react-icons/fi";
 import { Container, Content, TextArea } from "./styles";
+import { RateStars } from "../../components/RateStars";
+import { FiArrowLeft, FiClock } from "react-icons/fi";
+import { Header } from "../../components/Header";
+import { Tag } from "../../components/Tags";
+import { Link } from "react-router-dom";
 
 export function NotePreview(){
   return(
     <Container>
       <Header />
       <Content>
-        <ButtonText icon={FiArrowLeft} title="Return"/>
+        <Link to="/"><ButtonText icon={FiArrowLeft} title="Return"/></Link>
         <header className="title-section">
           <h1>Interestellar</h1>
           <RateStars />

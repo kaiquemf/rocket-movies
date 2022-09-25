@@ -36,6 +36,10 @@ export const Form = styled.form`
   > button{
     margin-top: 2.4rem;
   }
+  .text-button{
+    margin-top: 4.2rem;
+    align-self: center;
+  }
 `
 
 export const Background = styled.div`

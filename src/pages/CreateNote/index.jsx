@@ -7,13 +7,15 @@ import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
 import { Container, Content } from './styles';
 import { FiArrowLeft } from 'react-icons/fi';
+import { Link } from "react-router-dom";
+
 
 export function CreateNote(){
   return(
     <Container>
       <Header />
       <Content>
-      <ButtonText icon={FiArrowLeft} title="Return"/>
+      <Link to="/"><ButtonText icon={FiArrowLeft} title="Return"/></Link>
       <h1>New movie</h1>
       <div className="divide-inputs">
         <Input placeholder="Title"/>

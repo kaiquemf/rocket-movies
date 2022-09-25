@@ -16,6 +16,7 @@ overflow-y: auto;
     margin-bottom: 2.4rem;
   }
   > h1{
+    margin-top: 2.4rem;
     font-size: 3.6rem;
     line-height: 4.7rem;
     font-weight: 400;
@@ -28,11 +29,6 @@ overflow-y: auto;
     gap: 4rem;
     margin-bottom: 4rem;
   }
-  
-  .hReKpg{
-    height: 27.4rem;
-    margin-bottom: 4rem;
-  }
 
   .tags{
     width: 100%;
@@ -42,9 +38,6 @@ overflow-y: auto;
     padding: 1.6rem;
     background: ${({ theme }) => theme.COLORS.INPUT_BACKGROUND_DARK};
     border-radius: .8rem ;
-  }
-  .sc-fEOsli{
-    max-width: 18rem;
   }
 
   .buttons{

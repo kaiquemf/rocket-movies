@@ -4,12 +4,13 @@ import ReactDOM from 'react-dom/client';
 import theme from '../styles/theme';
 import { Home } from './Home';
 import React from 'react';
+import { Routes } from '../routes';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
     <GlobalStyles />
-    <Home />
+    <Routes />
     </ThemeProvider>
   </React.StrictMode>
 )

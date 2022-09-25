@@ -2,7 +2,8 @@ import { Container, Form, Background } from './styles';
 import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';
 import { ButtonText } from '../../components/ButtonText';
-import {FiArrowLeft, FiUser, FiMail, FiLock } from 'react-icons/fi'
+import {FiArrowLeft, FiUser, FiMail, FiLock } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 export function SignUp(){
   return(
@@ -17,7 +18,7 @@ export function SignUp(){
         <Input icon={FiLock} placeholder="Password"/>
         
         <Button title="Login"/>
-        <ButtonText icon={FiArrowLeft} title="Back to login"/>
+        <Link to="/" className='text-button'><ButtonText icon={FiArrowLeft} title="back to login"/></Link>
       </Form>
       <Background/>
     </Container>
