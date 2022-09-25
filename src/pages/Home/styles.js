@@ -6,7 +6,6 @@ height: 100vh;
 overflow-y: hidden;
 `
 export const Content = styled.div`
-grid-area: "header";
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,6 +17,9 @@ grid-area: "header";
     font-weight: 400;
     color: ${({ theme }) => theme.COLORS.WHITE_900};
     white-space: nowrap;
+  }
+  .function-btn{
+    width: 20.7rem;
   }
    > a{
     cursor: pointer;

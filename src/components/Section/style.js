@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const Container = styled(Link)`
+export const Container = styled.div`
   margin: 2.8rem 0;
 
   > h2{

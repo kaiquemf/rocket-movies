@@ -1,6 +1,5 @@
 import { Container, Profile } from "./styles";
 import { FiSearch } from "react-icons/fi";
-import { Link } from "react-router-dom";
 import { Input } from "../Input";
 
 export function Header(){
@@ -10,7 +9,7 @@ export function Header(){
       <Input placeholder="Search by title" icon={FiSearch}/>
       <Profile>
         <div className="text-content">
-        <Link to="/profile"><strong>Kaique Martins</strong></Link>
+        <strong>Kaique Martins</strong>
         <button>logout</button>
         </div>
         <img src="https://github.com/kaiquemf.png" alt="Profile Image" />
