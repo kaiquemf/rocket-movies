@@ -28,11 +28,6 @@ overflow-y: auto;
     gap: 4rem;
     margin-bottom: 4rem;
   }
-  
-  .hReKpg{
-    height: 27.4rem;
-    margin-bottom: 4rem;
-  }
 
   .tags{
     width: 100%;
@@ -43,15 +38,12 @@ overflow-y: auto;
     background: ${({ theme }) => theme.COLORS.INPUT_BACKGROUND_DARK};
     border-radius: .8rem ;
   }
-  .sc-fEOsli{
-    max-width: 18rem;
-  }
 
   .buttons{
     display: flex;
     gap: 4rem;
   }
-  .remove-movie-button{
+  .function-btn:first-child{
     background: ${({ theme }) => theme.COLORS.INPUT_BACKGROUND_DARK};
     color: ${({ theme }) => theme.COLORS.HARD_BLUE};
     font-weight: 400;

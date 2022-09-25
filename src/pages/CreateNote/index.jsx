@@ -29,8 +29,8 @@ export function CreateNote(){
         </div>
       </Section>
       <div className="buttons">
-      <Button className="remove-movie-button" title="Remove movie"/>
-      <Button className="save-movie-button" title="Save movie"/>
+      <Button title="Remove movie"/>
+      <Button title="Save movie"/>
       </div>
       </Content>
     </Container>
