@@ -3,6 +3,7 @@ import GlobalStyles from '../styles/global';
 import ReactDOM from 'react-dom/client';
 import theme from '../styles/theme';
 import { Home } from './Home';
+import { Routes } from '../routes';
 import React from 'react';
 import { Routes } from '../routes';
 

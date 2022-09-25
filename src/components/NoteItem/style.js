@@ -16,6 +16,7 @@ export const Container = styled.div`
   padding-right: 1.6rem;
 
   > button{
+    cursor: pointer;
     border: none;
     background: none;
   }

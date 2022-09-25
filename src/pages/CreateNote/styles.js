@@ -44,7 +44,7 @@ overflow-y: auto;
     display: flex;
     gap: 4rem;
   }
-  .remove-movie-button{
+  .function-btn:first-child{
     background: ${({ theme }) => theme.COLORS.INPUT_BACKGROUND_DARK};
     color: ${({ theme }) => theme.COLORS.HARD_BLUE};
     font-weight: 400;
